@@ -565,7 +565,7 @@ function updateHTMLWithId(number,id) {
   
     let RefInTemp = generateRandomNumber(42.9,43.1);
     updateHTMLWithId(RefInTemp,"RefInTemp");
-    let RefOutTemp = generateRandomNumber(6.9,7.1);
+    let RefOutTemp = generateRandomNumber(42.9,43.1);
     updateHTMLWithId(RefOutTemp,"RefOutTemp");
     let FluOutTemp = generateRandomNumber(28.9,29.1);
     updateHTMLWithId(FluOutTemp,"FluOutTemp");
