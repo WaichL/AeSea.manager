@@ -1,0 +1,91 @@
+:root{
+    --color-primary: #000000;
+    --color-secondary: #767b7a;
+    --color-background: #9b9c9cb2;
+    --color-card: #263238; 
+    --font-family:  Montserrat, Arial, sans-serif;
+  }
+
+html, body {
+    height: 100%;
+    margin: 0;
+    background: var(--color-background);
+}
+
+.full-height {
+    height: 100vh; /* Full viewport height */
+}
+
+.half-height.top {
+    height: 60vh; /* Half viewport height */
+}
+
+.half-height.bottom {
+    height: 40vh; /* Half viewport height */
+}
+
+
+.card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block; /* Adjust as needed */
+}
+
+.row left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px; /* Add some space between button rows */
+}
+
+.btn.btn-primary.left{
+    margin: 0 10px 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+.btn.btn-primary.right{
+    margin: 0 30px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+
+.chart{
+    width: 600px;
+}
+
+.row.control .btn {
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.row.control {
+    margin-bottom: 20px;
+}
+
+.arrows {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 1.2em; /* Adjust the size as needed */
+  }
